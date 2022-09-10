@@ -1,0 +1,77 @@
+:root {
+  --main-color: #6c63ff;
+  --additional-color: #676a6c;
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --samples-block-color: #f5f2fe;
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h4 {
+  color: var(--additional-color);
+}
+
+.contact-link,
+.about-link,
+.app-link {
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  margin: 20px;
+}
+
+.contact-link,
+.app-link {
+  background: var(--main-color);
+  color: white;
+}
+
+.about-link {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.appName {
+  text-align: left;
+}
+
+.app-description,
+.about-me-paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-me-paragraph {
+  margin: 30px 0;
+}
+
+.email-link {
+  color: var(--main-color);
+  font-size: 26px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
