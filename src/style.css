@@ -13,7 +13,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0%;
+  margin: 0% auto;
   text-align: center;
 }
 
@@ -74,4 +74,23 @@ h4 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  .apps-description,
+  .appName {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
